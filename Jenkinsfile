@@ -5,9 +5,9 @@ pipeline {
         maven 'maven3'
     }
 
-    environment {
-      #  DOCKERHUB_CREDENTIALS = credentials('dockerPass')
-    }
+    // environment {
+    //   #  DOCKERHUB_CREDENTIALS = credentials('dockerPass')
+    // }
 
     stages {
         stage('SCM Checkout') {
